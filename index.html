@@ -21,7 +21,7 @@
         <div class="container">
             <h1>Ремонт квартир под ключ в Екатеринбурге</h1>
             <p class="subtitle">Фиксированная смета. Работаем по договору. Гарантия 3 года.</p>
-            <a href="https://max.ru/id6673194248_1_bot" class="btn" target="_blank">Рассчитать стоимость в MAX за 2 минуты</a>
+            <a href="https://max.ru/id6673194248_1_bot" class="btn" target="_blank" onclick="ym(ВАШ_НОМЕР_СЧЕТЧИКА, 'reachGoal', 'max_click');">Рассчитать стоимость в MAX за 2 минуты</a>
             <p class="small-text">Без звонков и ожидания менеджера. Смета придет в мессенджер.</p>
         </div>
     </section>
@@ -68,12 +68,23 @@
     <footer>
         <div class="container">
             <h2>Узнайте точную стоимость вашего ремонта</h2>
-            <a href="https://max.ru/id6673194248_1_bot" class="btn btn-large" target="_blank">Перейти в MAX-бот</a>
+            <a href="https://max.ru/id6673194248_1_bot" class="btn btn-large" target="_blank" onclick="ym(ВАШ_НОМЕР_СЧЕТЧИКА, 'reachGoal', 'max_click');">Перейти в MAX-бот</a>
             <p>© 2024 РемонтЕКБ. Все права защищены.</p>
         </div>
     </footer>
 
-    <!-- Сюда позже вставим код Яндекс.Метрики -->
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=114035180', 'ym');
 
+    ym(114035180, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/114035180" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>
